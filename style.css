@@ -1,0 +1,150 @@
+/* main css*/
+*{
+  font-family:monospace;
+}
+/* FIT FOR DESKTOP LAPTOP */
+@media (min-width: 700px) and (max-width: 1500px){
+  h1{
+      justify-content: center;
+      display: flex;
+  
+      text-align: center;
+  }
+  
+  body{
+      top: 0;
+      left: 0;     
+      animation: animation 15s linear infinite;
+  }
+  div{
+      background-color: gray;
+  }
+  
+  @keyframes animation {
+      0% {
+        background: linear-gradient(55deg,#f2f5ef, #678f09, #f8f8f3, #dee493);
+        background-size: 1200%;
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        height: 1000px;
+      }
+    
+      100% {
+        background: linear-gradient(55deg,#29bfca, #ffffff, #b8980e, #ffffff);
+        background-size: 1200%;
+        background-position: 100% 0%;
+        background-repeat: no-repeat;
+        height: 1000px;
+        
+      }
+  }
+  
+     .img1{  
+      height: 400px;
+      width: 600px;
+      border-radius:20px 20px;
+ 
+      box-shadow: 5px 5px 15px black;
+      pointer-events: none;
+      position: absolute;
+      margin-left: 700px;
+     }
+  
+    
+
+     aside{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 600px;
+     }  
+     svg{
+      height: 100px;
+      width: 100px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FIT FOR CP  */
+
+@media (min-width: 200px) and (max-width: 591.98px){
+  h1{
+      justify-content: center;
+      display: flex;
+  
+      text-align: center;
+  }
+  
+  body{
+      top: 0;
+      left: 0;     
+      animation: animation 15s linear infinite;
+  }
+  div{
+      background-color: gray;
+  }
+  
+  @keyframes animation {
+      0% {
+        background: linear-gradient(55deg,#f2f5ef, #678f09, #f8f8f3, #dee493);
+        background-size: 1200%;
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        height: auto;
+        width: auto;
+      }
+    
+      100% {
+        background: linear-gradient(55deg,#29bfca, #ffffff, #b8980e, #ffffff);
+        background-size: 1200%;
+        background-position: 100% 0%;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: auto;
+        height: auto;
+        
+      }
+  }
+  
+     .img1{
+      height: 300px;
+      width: 420px;
+      border-radius: 0 20px 20px;
+      box-shadow: 5px 5px 15px black;
+      pointer-events: none;
+    
+    }
+    
+  
+    aside{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 600px;
+     }  
+
+     svg{
+      height: 50px;
+      width: 50px;
+     }
+
+}
+ 
