@@ -1,6 +1,7 @@
 /* main css*/
 *{
   font-family:monospace;
+  font-size: 15px;
 }
 /* FIT FOR DESKTOP LAPTOP */
 @media (min-width: 700px) and (max-width: 1500px){
@@ -23,44 +24,45 @@
   @keyframes animation {
       0% {
         background: linear-gradient(55deg,#f2f5ef, #678f09, #f8f8f3, #dee493);
-        background-size: 1200%;
+        background-size: 1000%;
         background-position: 0% 100%;
         background-repeat: no-repeat;
-        height: 1000px;
+        height: 650px;
       }
     
       100% {
         background: linear-gradient(55deg,#29bfca, #ffffff, #b8980e, #ffffff);
-        background-size: 1200%;
+        background-size: 1000%;
         background-position: 100% 0%;
         background-repeat: no-repeat;
-        height: 1000px;
+        height: 650px;
         
       }
   }
   
      .img1{  
       height: 400px;
-      width: 600px;
+      width: 400px;
       border-radius:20px 20px;
- 
       box-shadow: 5px 5px 15px black;
       pointer-events: none;
       position: absolute;
-      margin-left: 700px;
+      margin-left: 900px;
+      
+     
      }
-  
-    
-
      aside{
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 600px;
+      margin-top: 200px;
      }  
      svg{
-      height: 100px;
-      width: 100px;
+      height: 75px;
+      width: 75x;
+     }
+     span{
+    font-size: larger;
      }
 }
 
@@ -85,7 +87,7 @@
 
 /* FIT FOR CP  */
 
-@media (min-width: 200px) and (max-width: 591.98px){
+@media (min-width: 200px) and (max-width: 675px){
   h1{
       justify-content: center;
       display: flex;
@@ -99,13 +101,13 @@
       animation: animation 15s linear infinite;
   }
   div{
-      background-color: gray;
+      background-color: rgb(187, 30, 30);
   }
   
   @keyframes animation {
       0% {
         background: linear-gradient(55deg,#f2f5ef, #678f09, #f8f8f3, #dee493);
-        background-size: 1200%;
+        background-size: 1000%;
         background-position: 0% 100%;
         background-repeat: no-repeat;
         height: auto;
@@ -114,7 +116,7 @@
     
       100% {
         background: linear-gradient(55deg,#29bfca, #ffffff, #b8980e, #ffffff);
-        background-size: 1200%;
+        background-size: 1000%;
         background-position: 100% 0%;
         background-repeat: no-repeat;
         height: 400px;
@@ -126,11 +128,14 @@
   
      .img1{
       height: 300px;
-      width: 420px;
+      width: 400px;
       border-radius: 0 20px 20px;
-      box-shadow: 5px 5px 15px black;
+      box-shadow: 5px 5px 15px rgb(46, 39, 39);
       pointer-events: none;
-    
+      justify-content: center;
+      align-self: center;
+      display: flex;
+      margin-left: 30px;
     }
     
   
